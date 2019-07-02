@@ -496,6 +496,7 @@ a.menu-toggle-btn {
 	width: 100%;
 	padding: 0;
 	margin-top: 20px;
+	color:#3A3C3D;
 	}
 .templatemo_address	ul li{ list-style: none; display: inline; padding: 0px; float: left; }
 .templatemo_address	ul li.left{
@@ -506,6 +507,7 @@ a.menu-toggle-btn {
 }
 .templatemo_address	ul li.rigth{
 	float: left;
+	color:#3A3C3D;
 }
 
 .templatemo_address	ul li.clear	{ height: 10px; width: 100%; }
@@ -557,8 +559,7 @@ a.menu-toggle-btn {
 .templatemo_footer .hex_footer	{ float: left; margin-right: 5px; height: 40px; }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen and (min-width : 320px) 
 and (max-width : 419px)	{
 	.hex	{ width: 50%; float: left; }
 	.templatemorow	{ margin: 0 5%; }
@@ -576,8 +577,8 @@ and (max-width : 419px)	{
 	.templatemo_loadmore	{ margin-top: 53%; }
 	.templatemo_servicetxt	{ margin-top: 230px; }
 	.templatemo_servicecol2	{ margin-top: 10%; float: left; }
-	.templatemo_contactmap	{ width: 250px; height: 292px; float: left; }
-	.templatemo_contactmap img{ position: absolute; width: 250px; height: 292px; top: 0px; left: 15px; }
+	.templatemo_contactmap	{ width: 550px; height: 292px; float: left; }
+	.templatemo_contactmap img{ position: absolute; width: 550px; height: 292px; top: 0px; left: 15px; }
 	#templatemo_map {
     width: 100%;
     height: 292px;
@@ -598,7 +599,7 @@ and (max-width : 559px)	{
 	}
 	.templatemo-hex-top1	{ margin-top: 300px; }
 	.templatemo-hex-top2	{ margin-top: 130px; margin-left: 25%; }
-	.templatemo-hex-top3		{ margin-top: 130px; }
+	.templatemo-hex-top3	{ margin-top: 130px; }
 	.templatemo_gallerytop	{ margin-top: 32%; }
 	.templatemo_loadmore	{ margin-top: 50%; }
 	.templatemo_servicetxt	{ margin-top: 230px; }
@@ -619,7 +620,7 @@ and (max-width : 559px)	{
 	}
 	.templatemo-hex-top1	{ margin-top: 300px; }
 	.templatemo-hex-top2	{ margin-top: 180px; margin-left: 25%; }
-	.templatemo-hex-top3		{ margin-top: 180px; }
+	.templatemo-hex-top3	{ margin-top: 180px; }
 	.templatemo_gallerytop	{ margin-top: 33%; }
 	.templatemo_loadmore	{ margin-top: 48%; }
 	.templatemo_servicetxt	{ margin-top: 230px; }
@@ -679,8 +680,8 @@ and (max-width : 559px)	{
 	.hexagon-a a	{ min-width: 140px; }
 	.hexagonservices a.hlinkbott	{ width: 150px; }
 	.templatemo_servicerow	{ margin: 0px 30px; }
-	.templatemo_contactmap	{ width: 250px; height: 292px; float: left; }
-	.templatemo_contactmap img{ position: absolute; width: 250px; height: 292px; top: 0px; left: 15px; }
+	.templatemo_contactmap	{ width: 550px; height: 292px; float: left; }
+	.templatemo_contactmap img{ position: absolute; width: 550px; height: 292px; top: 0px; left: 15px; }
 	#templatemo_map {
    	 width: 100%;
     height: 292px;
